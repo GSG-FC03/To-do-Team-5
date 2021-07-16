@@ -28,6 +28,7 @@
   border-right: none;
   border-radius: 20px;
   background-color: white;
+  outline: none;
 }
 /* Add style to all the labels of the inputs in the form */
 .label {

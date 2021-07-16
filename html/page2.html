@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="/css/page2.css" />
+    <link rel="stylesheet" href="../css/page2.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -54,7 +54,13 @@
         </div>
 
         <div class="button">
-          <a href="" id="cancel">Cancel</a>
+          <input
+            type="button"
+            name="cancel"
+            id="cancel"
+            value="cancel"
+            onClick="window.location.href='index.html'"
+          />
           <button type="submit" id="submitButton">Done</button>
         </div>
       </form>
