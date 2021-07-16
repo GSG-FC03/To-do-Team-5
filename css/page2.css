@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Amatic SC", cursive;
+}
+
+.addingTask {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  background-color: #040f16;
+}
+.taskaddbutton {
+  align-self: center;
+  background-color: #01baef;
+  width: 30%;
+  border: none;
+  border-radius: 20px;
+  height: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.TaskList {
+  align-self: center;
+  border-radius: 15px;
+  height: 95%;
+  width: 95%;
+  background-color: #092434;
+  margin-bottom: 7px;
+  margin-top: 15px;
+}
+
+.StYrFtTk {
+  color: white;
+  margin-left: 5px;
+  padding-top: 5px;
+  padding-left: 4px;
+}
+hr {
+  align-self: center;
+}
