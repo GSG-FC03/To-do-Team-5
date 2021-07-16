@@ -2,8 +2,6 @@
 Hello and welcome to our project !
 <b>To Do</b>app project.
 
-# Lead Mentor: 
-- [Sara Abu Awwad](https://github.com/sara219)
 
 
 # Project Description:
