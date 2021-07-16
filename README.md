@@ -2,18 +2,8 @@
 Hello and welcome to our project !
 <b>To Do</b>app project.
 
-
-# Contriburters:
-- Ferass Nehad Mohana, gitHub link (https://github.com/ferassmohana).
-- Yousef Ahmed Al-Shareef, gitHub link (https://github.com/Yousef-Ahmad1997128).
-- Aya Mazen Alarayshi, gitHub link (https://github.com/Aya74).
-- Mahmoud Jamal Al-Dabba, gitHub link (https://github.com/MahmoudJD95).
-
-
-
 # Lead Mentor: 
-- Sara Abu Awwad, gitHub link (https://github.com/sara219).
-
+- [Sara Abu Awwad](https://github.com/sara219)
 
 
 # Project Description:
@@ -23,15 +13,15 @@ Also you can edit, delete and checkout your task if you finished it.
 
 
 # User Experience‏
-The app is built in a way that it is easy for the user to interact with.<br>
-Once the user opens the website/app, he will be greeted with a landing page that has the name of the website/app and short descripton of it, also there is a button which has the label of <b>"let's start !"</b>, and it takes the user to the next page.<br>
-The next page is the dynamic, vital page, which the user will treat with, so it has the feature of <b>Add Task</b> button.<br>
-when I press at the button, it will open form which has 5 simple elements: <b>title, time, date, description and note.</b>
-After filling the data, he has two choices to take: <b>Cancle, or Done.</b> <br>
+* The app is built in a way that it is easy for the user to interact with.
+* Once the user opens the website/app, he will be greeted with a landing page that has the name of the website/app and short descripton of it, also there is a button which has the label of <b>"let's start !"</b>, and it takes the user to the next page.
+* The next page is the dynamic, vital page, which the user will treat with, so it has the feature of <b>Add Task</b> button.
+* When he press at the button, it will open form which has 5 simple elements: <b>title, time, date, description and note.</b>
+* After filling the data, he has two choices to take: <b>Cancle, or Done:</b> <br> <hr>
 <b>Cancel</b>: is used to ignore all of the data that have been entred.<br>
-<b>Done</b>: is used to save data, list the task at the pervious page.<br>
-After all of those processes, the tasks that have been entered and saved by the user will be shown at the dynamical page.<br>
-He will be able to <b>edit, delete and checkout</b> the task.‏
+<b>Done</b>: is used to save data, list the task at the pervious page. <hr>
+* After all of those processes, the tasks that have been entered and saved by the user will be shown at the dynamical page.
+* He will be able to <b>edit, delete and checkout</b> the task.‏
 
 
 # live links:
@@ -47,3 +37,14 @@ He will be able to <b>edit, delete and checkout</b> the task.‏
 9- Open <b>index.html</b> file. <br>
 10- Right-click with the mouse. <br>
 11- select <b>open with live server</b> <br>
+
+# The technologies that we used:
+* HTML
+* CSS
+* JavaScript
+* LocalStorage
+# Contriburters:
+- [Ferass Nehad Mohana](https://github.com/ferassmohana).
+- [Yousef Ahmed Al-Shareef](https://github.com/Yousef-Ahmad1997128).
+- [Aya Mazen Alarayshi](https://github.com/Aya74).
+- [Mahmoud Jamal Al-Dabba](https://github.com/MahmoudJD95).
