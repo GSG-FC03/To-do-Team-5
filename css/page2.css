@@ -1,0 +1,68 @@
+* {
+  font-family: "Amatic SC", cursive;
+  color: white;
+  background-color: #040f16;
+}
+/* Add style t the div that contain the form */
+.form-popup {
+  /* display: none; */
+  height: 812px;
+}
+
+/* Add style to the form */
+.form-container {
+  padding: 10px;
+}
+
+/* Add style to the input in the form-container form */
+.form-container input[type="text"],
+.form-container input[type="date"],
+.form-container input[type="time"] {
+  display: block;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 45px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-radius: 20px;
+  background-color: white;
+}
+/* Add style to all the labels of the inputs in the form */
+.label {
+  font-size: 35px;
+}
+
+/* Add style to cancle link to look like a button shape */
+#cancel {
+  text-decoration: none;
+  color: white;
+  background-color: #b80c09;
+  padding: 15px 32px;
+  border-radius: 5px;
+}
+
+/* Add style to submit buttom*/
+#submitButton {
+  background-color: #0b4f6c; /* Green */
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 16px;
+}
+
+/* Edit the div that contain the cancle link and submit button */
+.button {
+  margin-top: 30px;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Add style to to the inputs */
+.formInputs {
+  margin-top: 30px;
+}
