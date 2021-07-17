@@ -4,22 +4,77 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="/css/page2.css" />
+    <title>Document</title>    
+   <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/page2.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap"
+       rel="stylesheet"/>
   </head>
   <body>
+
     <div class="addingTask">
       <!-- <hr color="white" width="90%"> -->
       <div class="TaskList">
         <p class="StYrFtTk">Start Your First Task</p>
       </div>
       <button class="taskaddbutton">Add Task</button>
+    </div>
+    
+
+    <div class="form-popup" id="myForm">
+      <form action="" class="form-container">
+        <h1 class="heading">Creat new task</h1>
+        <hr color="white" width="100%" />
+
+        
+        
+        <div class="formInputs">
+          <label for="tittle" class="label">Tittle</label>
+          <input
+            type="text"
+            name="tittle"
+            id="tittleInput"
+            placeholder="Enter the title of the task"
+            required
+          />
+
+          <label for="date" class="label">Date</label>
+          <input type="date" name="date" id="dateInput" required />
+
+          <label for="time" class="label">Time</label>
+          <input type="time" name="time" id="timeInput" required />
+
+          <label for="description" class="label">Description</label>
+          <input
+            type="text"
+            name="description"
+            id="descriptionInput"
+            placeholder="Enter the description of the task"
+            required
+          />
+
+          <label for="notes" class="label">Notes</label>
+          <input
+            type="text"
+            name="notes"
+            id="notesInput"
+            placeholder="Enter additional notes"
+          />
+        </div>
+
+        <div class="button">
+          <input
+            type="button"
+            name="cancel"
+            id="cancel"
+            value="cancel"
+            onClick="window.location.href='index.html'"
+          />
+          <button type="submit" id="submitButton">Done</button>
+        </div>
+      </form>
     </div>
   </body>
 </html>
