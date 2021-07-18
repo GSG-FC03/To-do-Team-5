@@ -4,7 +4,7 @@
   box-sizing: border-box;
   font-family: "Amatic SC", cursive;
   background-color: #040f16;
-}
+
 
 /* Add style to the heading of the page */
 h2 {
@@ -13,6 +13,7 @@ h2 {
   margin-top: 7px;
   margin-bottom: 7px;
 }
+
 
 /* add style the input  */
 #toDoInput {
@@ -23,7 +24,10 @@ h2 {
   padding: 10px;
   float: left;
   font-size: 16px;
+  outline: none;
+  background-color: white;
 }
+  
 /* add style to Add task button */
 .addTaskButton {
   background-color: #0b4f6c;
@@ -37,17 +41,4 @@ h2 {
   transition: 0.3s;
   border-radius: 0;
 }
-/* Add style to the input */
-input[type="text"] {
-  display: block;
-  width: 100%;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  height: 45px;
-  border-top: none;
-  border-left: none;
-  border-right: none;
-  border-radius: 20px;
-  background-color: white;
-  outline: none;
-}
+
