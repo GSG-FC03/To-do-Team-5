@@ -3,114 +3,50 @@
   margin: 0;
   box-sizing: border-box;
   font-family: "Amatic SC", cursive;
-}
-
-.addingTask {
-  position: absolute;
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  height: 100%;
   background-color: #040f16;
 }
-.taskaddbutton {
-  align-self: center;
-  background-color: #01baef;
-  width: 30%;
-  border: none;
-  border-radius: 20px;
-  height: 50px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  font-size: 35px;
-  font-weight: 700;
+/* Add style to the heading of the page */
+body{
+  height: 800px;
 }
-
-.TaskList {
-  align-self: center;
-  border-radius: 15px;
-  height: 95%;
-  width: 95%;
-  background-color: #092434;
+h2 {
+  text-align: center;
+  color: white;
+  margin-top: 7px;
   margin-bottom: 7px;
-  margin-top: 15px;
 }
-
-.StYrFtTk {
-  color: white;
-  margin-left: 5px;
-  padding-top: 5px;
-  padding-left: 4px;
-  font-size: 30px
+.header{
+display:flex;
+justify-content: space-around;
 }
-
-hr {
-  align-self: center;
-  font-family: "Amatic SC", cursive;
-  color: white;
-  background-color: #040f16;
-}
-/* Add style t the div that contain the form */
-.form-popup {
-  /* display: none; */
-  height: 812px;
-}
-
-/* Add style to the form */
-.form-container {
-  padding: 10px;
-}
-
-/* Add style to the input in the form-container form */
-.form-container input[type="text"],
-.form-container input[type="date"],
-.form-container input[type="time"] {
-  display: block;
-  width: 100%;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  height: 45px;
-  border-top: none;
-  border-left: none;
-  border-right: none;
-  border-radius: 20px;
-  background-color: white;
-  outline: none;
-}
-/* Add style to all the labels of the inputs in the form */
-.label {
-  font-size: 35px;
-}
-
-/* Add style to cancle link to look like a button shape */
-#cancel {
-  text-decoration: none;
-  color: white;
-  background-color: #b80c09;
-  padding: 15px 32px;
-  border-radius: 5px;
-}
-
-/* Add style to submit buttom*/
-#submitButton {
-  background-color: #0b4f6c; /* Green */
+/* add style the input  */
+#toDoInput {
+  margin: 0;
   border: none;
-  border-radius: 5px;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
+  border-radius: 10px;
+  width: 70%;
+  height: 30px;
+  float: left;
   font-size: 16px;
+  outline: none;
+  background-color: white;
 }
-
-/* Edit the div that contain the cancle link and submit button */
-.button {
-  margin-top: 30px;
-  text-align: center;
-  display: flex;
-  justify-content: space-around;
+/* add style to Add task button */
+.addTaskButton {
+  background-color: #0b4f6c;
+  color: white;
+  width: 25%;
+  font-size: 16px;
+  height: 30px;
+  border-radius: 10px;
 }
+.list{
+align-self: center;
+margin-left: 19px;
+margin-top: 25px; 
+background-color: #0b4f6c;
+width: 90%;
+height: 690px;
+border-radius: 10px;
 
-/* Add style to to the inputs */
-.formInputs {
-  margin-top: 30px;
 }
