@@ -2,6 +2,9 @@ const inputTask = document.querySelector("#toDoInput");
 const addButton = document.querySelector(".addTaskButton");
 const taskList = document.querySelector(".list");
 
+//the job of this listner is to check the target on click
+taskList.addEventListener('click', checkTarget);
+
 //This job of this function is creating the task
 addButton.addEventListener("click", addToDo);
 
@@ -47,8 +50,7 @@ function addToDo() {
 // This function will get items from local storage and show it at the list if we press "reload" to the page
 
 function showToDos() {
-  console.log("111111111111111111111");
-  let toDos;
+    let toDos;
   if (localStorage.getItem("tasks") === null) {
     toDos = [];
   } else {
@@ -76,3 +78,34 @@ function showToDos() {
     });
   }
 }
+
+function checkTarget(ele){
+  console.log(ele.target);
+  let targetElement = ele.target
+  if(targetElement.classList[0] === 'deleteIcon'){
+    let removeParent = targetElement.parentElement
+    removeParent.remove();
+    deleteFromStorage(removeParent);
+  }
+  if(targetElement.classList[0] === 'checkBox'){
+    console.log(targetElement);
+    let complete = targetElement.parentElement
+    console.log(complete, '0000909090909')
+    complete.classList.toggle('checkboxComplete');
+  }
+}
+
+function deleteFromStorage(toDo){
+  console.log('hi');
+  let toDos 
+  if (localStorage.getItem("tasks") === null) {
+    toDos = [];
+  } 
+  else {
+    toDos = JSON.parse(localStorage.getItem("tasks"));
+  }
+  const toDoIndex = toDo.children[0].innerText
+  toDos.splice(toDos.indexOf(toDoIndex));
+  localStorage.setItem("tasks", JSON.stringify(toDos));
+}
+

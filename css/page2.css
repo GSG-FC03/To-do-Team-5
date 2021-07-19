@@ -63,8 +63,13 @@ h2 {
   color: white;
   margin-left: 12rem;
   border: none;
-  background: none;
+  background: white;
+  padding: 20px;
 }
 .checkBox{
 margin-left: 2rem;
+}
+
+.checkboxComplete{
+  text-decoration: line-through;
 }
