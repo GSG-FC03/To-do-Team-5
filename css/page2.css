@@ -6,7 +6,7 @@
   background-color: #040f16;
 }
 /* Add style to the heading of the page */
-body{
+body {
   height: 800px;
 }
 h2 {
@@ -15,9 +15,9 @@ h2 {
   margin-top: 7px;
   margin-bottom: 7px;
 }
-.header{
-display:flex;
-justify-content: space-around;
+.header {
+  display: flex;
+  justify-content: space-around;
 }
 /* add style the input  */
 #toDoInput {
@@ -40,13 +40,31 @@ justify-content: space-around;
   height: 30px;
   border-radius: 10px;
 }
-.list{
-align-self: center;
-margin-left: 19px;
-margin-top: 25px; 
-background-color: #0b4f6c;
-width: 90%;
-height: 690px;
-border-radius: 10px;
-
+.list {
+  align-self: center;
+  margin-left: 19px;
+  margin-top: 25px;
+  background-color: #0b4f6c;
+  width: 90%;
+  height: 690px;
+  border-radius: 10px;
+  color: white;
+}
+.itemList {
+  background-color: #0b4f6c;
+  padding: 20px;
+  font-size: 25px;
+  font-weight: 700;
+  border-top: 2px solid;
+  border-bottom: 2px solid;
+}
+.deleteIcon {
+  background-color: white;
+  color: white;
+  margin-left: 12rem;
+  border: none;
+  background: none;
+}
+.checkBox{
+margin-left: 2rem;
 }
