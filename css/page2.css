@@ -50,6 +50,7 @@ h2 {
   border-radius: 10px;
   color: white;
 }
+
 .itemList {
   background-color: #0b4f6c;
   padding: 20px;
@@ -57,19 +58,30 @@ h2 {
   font-weight: 700;
   border-top: 2px solid;
   border-bottom: 2px solid;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 .deleteIcon {
-  background-color: white;
+  background-color: #0b4f6c;
   color: white;
-  margin-left: 12rem;
+  position: absolute;
   border: none;
-  background: white;
   padding: 20px;
+  left: 70%;
 }
 .checkBox{
-margin-left: 2rem;
+position: relative;
+left: 85%;
+width: 20px;
+height: 20px;
 }
 
 .checkboxComplete{
   text-decoration: line-through;
+}
+
+.fa-trash-alt:before {
+  content: "\f2ed";
+  font-size: 25px;
 }
